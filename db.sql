@@ -35,3 +35,5 @@ CREATE TABLE IF NOT EXISTS agendamento (
     FOREIGN KEY (id_servico) REFERENCES servicos(id_servico),
     FOREIGN KEY (id_animal) REFERENCES animais(id_animal)
 );
+
+//
